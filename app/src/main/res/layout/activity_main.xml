@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.edu.utng.colvera.telefoniaestrategy.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_compañia"
+        android:textSize="16dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/opciones"
+        android:id="@+id/cmb_opciones"></Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_minutos_local"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/txt_local"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_minutos_id"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/txt_minutos_id"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_calcular"
+            android:id="@+id/btn_calcular"/>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_limpiar"
+            android:id="@+id/btn_limpiar"/>
+
+        ></LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_total"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/txt_total"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_mostrar_creditos"
+        android:id="@+id/btn_creditos"
+        />
+
+
+</LinearLayout>

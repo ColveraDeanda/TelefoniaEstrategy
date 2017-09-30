@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TelefoniaEstrategy</string>
+    <string name="texto_minutos_local">Minutos Llamadas Locales</string>
+    <string name="texto_total">Total a pagar:</string>
+    <string name="texto_calcular">Calcular</string>
+    <string name="texto_minutos_id">Minutos Larga Distancia</string>
+    <string name="texto_compañia">Compañia</string>
+    <string name="texto_limpiar">Limpiar</string>
+    <string name="texto_mostrar_creditos">Mostrar créditos</string>
+    <string name="texto_nombre">Nombre: Cristobal Olvera</string>
+    <string name="texto_grupo">Grupo: GSI1341</string>
+    <string name="texto_asignatura">Asignatura: Desarrollo de aplicaciones II</string>
+    <string name="texto_escuela">Universidad Tecnológica del Norte de Guanajuato</string>
+    <string name="texto_materia">Desarrollo de aplicaciones ll</string>
+    <string name="texto_profesor">Apolinar Trejo Cuevas</string>
+    <string name="texto_aplicacion">TelefoniaEstrategy</string>
+    <string name="texto_nombr">Cristóbal Olvera Deanda</string>
+    <string name="texto_fecha">29 de Septiembre de 2017</string>
+    <string-array name="opciones">
+        <item>Telcel</item>
+        <item>Unefon</item>
+        <item>MyCompany</item>
+    </string-array>
+</resources>
+
